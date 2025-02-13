@@ -1,80 +1,81 @@
-# Tarea13-DIW
-(instagram - tiempo)
-# 📌 Proyecto React: Instagram Sidebar & Weather Widget
+# Proyecto React: Sidebar de Instagram & Widget del Clima
 
-Este proyecto combina **dos aplicaciones** dentro de un solo entorno de desarrollo en **React + Vite + TypeScript + Bootstrap**.
-
-- 📌 **Sidebar de Instagram:** Un menú lateral inspirado en Instagram.
-- 🌤 **Widget del Clima:** Un pronóstico del tiempo con gráfico de temperaturas.
+Este proyecto combina dos aplicaciones en un solo entorno de desarrollo utilizando **React**, **Vite** y **TypeScript**. La idea es construir una interfaz sencilla y funcional, con un menú lateral inspirado en Instagram y un widget de clima con pronóstico detallado.
 
 ---
 
-## 🚀 **Tecnologías utilizadas**
+## Tecnologías utilizadas
 
-- **React** ⚛️ - Librería principal
-- **Vite** ⚡ - Bundler rápido
-- **TypeScript** 🟦 - Tipado fuerte
-- **Bootstrap** 🎨 - Estilización
-- **Chart.js** 📊 - Gráfico de temperatura
+Para desarrollar este proyecto, usamos:
+
+- **React** - Para la estructura de los componentes.
+- **Vite** - Para optimizar el rendimiento del desarrollo.
+- **TypeScript** - Para un código más seguro y mantenible.
+- **Bootstrap** - Para un diseño responsivo y estilizado.
+- **Chart.js** - Para visualizar la evolución de la temperatura en un gráfico.
 
 ---
 
-## 📌 **Instalación**
+## Instalación y ejecución
 
-Clona el repositorio y entra en la carpeta del proyecto:
+Si quieres probar este proyecto en tu entorno local, sigue estos pasos:
+
+1. Clona el repositorio y accede a la carpeta del proyecto:
 
 ```sh
- git clone https://github.com/tuusuario/proyecto-tema13.git
- cd proyecto-tema13
+git clone https://github.com/tuusuario/proyecto-tema13.git
+cd proyecto-tema13
 ```
 
-Instala las dependencias:
+2. Instala las dependencias necesarias:
 
 ```sh
 npm install
 ```
 
-Ejecuta el servidor de desarrollo:
+3. Ejecuta el servidor de desarrollo:
 
 ```sh
 npm run dev
 ```
 
+Esto iniciará la aplicación y podrás verla en tu navegador.
+
 ---
 
-## 📌 **1️⃣ Sidebar de Instagram**
+## 1. Sidebar de Instagram
 
-📌 **Descripción:** Menú lateral con los iconos y opciones de Instagram.
+Este componente representa un **menú lateral inspirado en Instagram**, con navegación entre diferentes secciones.
 
-✅ **Características:**
-- Lista de opciones con iconos de Bootstrap.
+### Características:
+- Lista de opciones con iconos.
 - Destaca el ítem seleccionado.
-- Diseño responsivo con Bootstrap.
+- Diseño responsivo.
 
-📌 **Ubicación del código:**
+### Ubicación del código:
 ```
 /src/components/Sidebar/
   ├── Sidebar.tsx
   ├── SidebarItem.tsx
 ```
 
-📌 **Ejemplo de Código:**
+### Uso:
 ```tsx
 <Sidebar />
 ```
 
 ---
 
-## 📌 **2️⃣ Widget del Clima**
+## 2. Widget del Clima
 
-📌 **Descripción:** Muestra el pronóstico del clima con datos como temperatura, humedad y viento.
+Este componente muestra información del clima actual, junto con un pronóstico de los próximos días.
 
-✅ **Características:**
-- Información del clima actual.
-- Pronóstico de los próximos días.
-- Gráfico de temperatura con **Chart.js**.
+### Características:
+- Muestra la temperatura, humedad y velocidad del viento.
+- Incluye un gráfico de temperatura con **Chart.js**.
+- Pronóstico extendido con iconos de clima.
 
-📌 **Ubicación del código:**
+### Ubicación del código:
 ```
 /src/components/Weather/
   ├── WeatherWidget.tsx
@@ -84,14 +85,16 @@ npm run dev
   ├── WeatherChart.tsx
 ```
 
-📌 **Ejemplo de Código:**
+### Uso:
 ```tsx
 <WeatherWidget />
 ```
 
 ---
 
-## 📌 **3️⃣ Estructura del Proyecto**
+## 3. Estructura del Proyecto
+
+Para organizar mejor los componentes, la estructura del proyecto es la siguiente:
 
 ```
 /src
@@ -105,6 +108,8 @@ npm run dev
 
 ---
 
-## 📌 **Contacto**
-Si tienes alguna pregunta, no dudes en escribirme. 😃🚀
+## Contacto
+Si tienes alguna duda o sugerencia, no dudes en ponerte en contacto conmigo.
+
+
 
