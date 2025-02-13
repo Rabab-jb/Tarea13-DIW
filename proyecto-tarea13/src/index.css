@@ -1,0 +1,10 @@
+.weather-widget {
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.weather-item i {
+  font-size: 32px;
+  color: #fbc02d;
+}
